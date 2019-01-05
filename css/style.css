@@ -1,0 +1,610 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	width: 100%;
+	/*min-width: 1500px;*/
+	background-color: black;
+	height: 100%;
+	font-family: OS_ExtraBold;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	/*flex-shrink: 5;
+	align-items: center;*/
+}
+a {
+	text-decoration: none;
+}
+header h1 {
+	font-family: OS-ExtraBold;
+	color: white;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-top: 55px;
+	margin-left: 12%;
+	font-weight: 800;
+	cursor: pointer;
+}
+nav {
+	text-decoration: none;
+	margin-left: 29%;
+	margin-top: 55px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: inherit;
+}
+nav a {
+	color: white !important;
+	padding: 12px;
+	margin: 0px 16px 0px 16px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+#icon {
+	display: none;
+}
+nav a:hover {
+	border-bottom: 3px #fcac45 solid;
+}
+#welcom {
+	font-family: OS-Light;
+	padding-top: 221px;
+	padding-bottom: 420px;
+	background-color: black;
+
+}
+#welcom > .myCompany {
+	color: #999999;
+	text-transform: uppercase;
+	font-size: 44px;
+	text-align: center;
+}
+#welcom > .myCompany > span {
+	font-family: OS-ExtraBold;
+	color: #fcac45;
+}
+#welcom > .myCompany ~ p {
+	font-family: OS-Regular;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+#welcom > .myCompany ~ p > span {
+	font-family: OS-ExtraBold;
+	font-size: 20px;
+}
+
+/*////// About us //////*/
+
+.aboutus {
+	background-color: white;
+	display: flex;	
+	width: 100%;
+	margin-bottom: 50px;
+}
+img[src="img/body.png"] {
+	margin-top: 100px;
+	margin-left: 12%;
+	margin-bottom: 100px;
+	flex-basis: 33.7%;
+}
+#someworlds {
+	font-family: OS-Regular;
+	font-size: 34px;
+	width: 400px;
+}
+.border {
+	border-bottom: 4px #fcac45 solid;
+	width: 354px;
+	margin-top: 14px;
+	margin-bottom: 31px;
+
+}
+#someworlds > span {
+	font-family: OS-ExtraBold;
+}
+.about {
+	margin-left: 12%;
+	margin-top: 127px;
+	width: 27%;
+}
+#lorem {
+	font-family: OS-Regular;
+	font-size: 18px;
+	color: #6c6c6c;
+	width: 405px;
+}
+.rightside {
+	list-style-image: url(../img/scin.png);
+	margin-top: 30px;
+	margin-left: 23px;
+	font-family: OS-Italic;
+	font-size: 16px;
+	color: #5a5a5a;
+	width: 400px;
+}
+.rightside > li > span {
+	font-family: OS-Sembibold;
+	font-size: 18px;
+}
+.rightside > li {
+	margin-top: 10px;
+}
+
+/*////// Our Team //////*/
+
+.ourTeam {
+	display: flex;
+	background-color: black;
+	flex-direction: column;
+}
+.team {
+	font-family: OS-Sembibold;
+	font-size: 44px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 100px;
+	color: white;
+}
+#B2 {
+	margin: auto;
+	width: 100px;
+	margin-top: 20px;
+}
+.members {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+.member > img {
+	border-radius: 50%;
+	width: 127px;
+	height: 127px;
+	position: relative;
+	left: 63px;
+}
+.nickname {
+	font-family: OS-ExtraBold;
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+.position {
+	color: white;
+	font-family: OS-Regular;
+	font-size: 16px;
+	text-align: center;
+}
+.quote {
+	color: white;
+	width: 250px;
+	text-align: center;
+	font-family: OS-Regular;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+/*////// Our Services //////*/
+
+.ourServices {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+.ser {
+	font-family: OS-Sembibold;
+	font-size: 44px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 100px;
+	color: black;
+}
+#B3 {
+	margin: auto;
+	width: 100px;
+	margin-top: 20px;
+}
+.sometext {
+	color: #6c6c6c;
+	font-family: OS-Italic;
+	font-size: 16px;
+	width: 75%;
+	text-align: center;
+	margin: 50px auto 100px auto;
+}
+.services {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-bottom: 100px;
+}
+.servis > img {
+	position: relative;
+	left: 55px;
+}
+.sertext {
+	font-family: OS-Sembibold;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #222222;
+}
+.sertext2 {
+	font-family: OS-Regular;
+	font-size: 14px;
+	color: #222222;
+	width: 250px;
+	text-align: center;
+}
+
+/*////// Some Of Our Cleents ////// */
+
+.clients {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
+.someclients {
+	font-family: OS-Light;
+	font-size: 44px;
+	text-transform: uppercase;
+	margin-top: 100px;
+	color: white;
+	text-align: center;
+}
+.someclients > span {
+	font-family: OS-Sembibold;
+}
+#B4 {
+	margin: 30px auto 100px auto;
+	width: 100px;
+}
+.clients2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 200px;
+}
+.clients2 > img {
+	width: 170px;
+	height: 28px;
+	margin-right: 25px;
+}
+
+/*////// take a look at our work //////*/
+
+.ourWork {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+.look {
+	font-family: OS-Light;
+	color: black;
+	font-size: 44px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+}
+.look > span {
+	font-family: OS-Sembibold;
+}
+#B4 {
+	margin: 30px auto;
+	width: 100px;
+}
+.lorem {
+	font-family: OS-Italik;
+	font-size: 16px;
+	color: #6c6c6c;
+	width: 75%;
+	text-align: center;
+	margin: auto auto 175px;
+}
+.gallery {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+.trend {
+	display: flex;
+	flex-direction: row;
+	margin: auto auto 30px auto;
+}
+.trend > img {
+	margin-right: 30px;
+	width: 263px;
+	height: 235px;
+}
+
+/*////// Our Clients //////*/
+
+.ourClients {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+.testimonials {
+	font-family: OS-Sembibold;
+	font-size: 44px;
+	margin: 100px auto auto auto;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+.testimonials > span {
+	font-family: OS-Light;
+}
+#B5 {
+	margin: 30px auto 100px auto;
+	width: 100px;
+	border-bottom: 4px #fcac45 solid;
+}
+.book {
+	font-family: OS-Sembibold;
+	font-size: 18px;
+	text-align: center;
+	margin: auto auto 50px auto;
+	color: white;
+	width: 62%;
+}
+.ceo {
+	font-family: OS-Sembibold;
+	font-size: 18px;
+	color: #b2b2b2;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 175px;
+}
+.ceo > span {
+	font-family: OS-Light;
+}
+
+/*////// Contact Us //////*/
+
+.contact {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+.contact_text {
+	font-family: OS-Sembibold;
+	font-size: 44px;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 100px;
+	text-align: center;
+}
+#B6 {
+	margin: 30px auto 60px auto;
+	width: 100px;
+	border-bottom: 4px #fcac45 solid;
+}
+.contact_text2 {
+	font-family: OS-Italik;
+	font-size: 16px;
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	color: #6c6c6c;
+	margin-bottom: 100px;
+}
+.contact_wrap {
+	width: 753px;
+	margin: 0 auto;
+}
+.contact_form {
+	display: flex;
+	margin-bottom: 100px;
+}
+.form_input {
+	display: flex;
+}
+input {
+	width: 360px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #999999;
+}
+.name:first-of-type {
+	margin-right: 28px;
+}
+.name {
+	font-family: OS-Regular;
+	font-size: 14px;
+	color: #636363;
+}
+.red {
+	color: red; 
+}
+input:focus {
+	border: 1px solid #29B0D9;
+}
+.message {
+	font-family: OS-Regular;
+	font-size: 14px;
+	color: #636363;
+}
+textarea:focus {
+	border: 1px solid #29B0D9;
+}
+textarea {
+	width: 100%;
+	border: 1px solid #999999;
+	height: 165px;
+	border: 1px solid #999999;
+	font-size: 14px;
+}
+.form_butt {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+.form_butt > input {
+	width: 165px;
+	height: 40px;
+	background-color: #fcac45;
+	border: 0px;
+	cursor: pointer;
+	font-family: OS-Sembibold;
+	font-size: 16px;
+	color: white;
+}
+.form_butt > input:hover {
+	color: black;
+}
+
+/*////// Footer //////*/
+
+footer {
+	background-color: #222222;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0px 30px 0px;
+}
+footer > a {
+	margin-right: 14px;
+}
+@media (max-width: 1200px) and (min-width: 1100px) {
+	.trend > img {
+		margin-right: 0.5%;
+		width: 243px;
+		height: 215px;
+	}
+	.trend {
+		margin-bottom: 0.5%;
+	}
+}
+@media (max-width: 1600px) and (min-width: 1100px) {
+	nav {
+		margin-left: 2%;
+	}
+}
+@media (max-width: 1100px) {
+	nav a {
+		display: none;
+	}
+	nav {
+		margin-left: 0px;
+	}
+	#icon {
+		float: right;
+		display: block;
+		font-size: 20px;
+	}
+	header {
+		justify-content: space-between;
+	}
+	.aboutus {
+		flex-direction: column;
+		display: flex;
+	}
+	img[src="img/body.png"] {
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-left: 13%;
+		width: 73%;
+	}
+	.about {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-left: 13%;
+		width: 75%;
+	}
+	#border {
+		position: relative;
+		left: -4%;
+	}
+	.members {
+		flex-direction: column;
+		margin: auto;
+		margin-top: 50px;
+	}
+	.quote {
+		margin-bottom: 30px;
+	}
+	.services {
+		flex-direction: column;
+		margin: auto;
+	}
+	.sertext2 {
+		margin-bottom: 30px;
+	}
+	.sometext {
+		margin-bottom: 70px;
+	}
+	#someworlds {
+		text-align: center;
+	}
+	#lorem {
+		text-align: center;
+	}
+	.clients2 {
+		flex-direction: column;
+		margin: auto auto 200px;
+	}
+	.clients2 > img {
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+	.trend {
+		flex-direction: column;
+	}
+	.trend > img {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.contact_wrap {
+		width: 50%;
+	}
+	input {
+		width: 100%;
+	}
+	.name {
+		font-size: 11px;
+	}
+	.form_input {
+		flex-direction: column;
+	}
+}
+@media (max-width: 1250px) and (min-width: 1100px) {
+	.about {
+		margin-left: 5%;
+	}
+	img[src="img/body.png"] {
+		margin-left: 5%;
+	}
+}
+@font-face {
+	src: url(..//fonts/OpenSans-Bold.ttf);
+	font-family: OS-ExtraBold;
+}
+@font-face {
+	src: url(../fonts/OpenSans-Light.ttf);
+	font-family: OS-Light;
+}
+@font-face {
+	src: url(../fonts/OpenSans-Regular.ttf);
+	font-family: OS-Regular;
+}
+@font-face {
+	src: url('../fonts/OpenSans-Italic.ttf');
+	font-family: OS-Italic;
+}
+@font-face {
+	src: url('../fonts/OpenSans-Semibold.ttf');
+	font-family: OS-Sembibold;
+}
